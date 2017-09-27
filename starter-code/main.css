@@ -3,35 +3,42 @@
 
 body {
   font-family: 'Open Sans', light;
-  margin: 0;
-  width: 100%;
+  margin: 0px;
+  width: 80%;
 }
 h1, h2 {
   font-family: 'Rock Salt', cursive;
   margin: 0;
 }
 img {
-
+  padding: 7px;
+  border: 2px dashed #4092f7;
 }
 input {
 
 }
 button {
-
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5), inset 0px 0px 2px rgba(154, 147, 113, 0.95);
 }
 nav ul {
-
+  list-style: none;
+  display: inline-block;
 }
 nav ul li {
-
+  float: left;
 }
-.header {
 
+.header {
+  background-color: #42b6f4;
 }
 .header h1 {
 
 }
 .footer {
+  background-color: #cbcfd6;
+  height: 100px;
+  padding: 10px;
+  clear: both;
 
 }
 .content {
@@ -44,8 +51,13 @@ nav ul li {
 
 }
 .note {
-
+  background-color: #3464ba;
+  border: 2px solid #3464ba;
+  float: left;
+  height: 175px;
+  width: 300px;
 }
 .request {
-
+  border: 2px solid gray;
+  height: 175px;
 }
