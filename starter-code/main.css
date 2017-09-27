@@ -11,6 +11,7 @@ h1, h2 {
   margin: 0;
 }
 img {
+  float: left;
   padding: 7px;
   border: 2px dashed #4092f7;
   margin-top: 10px;
@@ -31,10 +32,13 @@ nav ul li {
 }
 
 .header {
-  background-color: #42b6f4;
+  background-color: #75c1ff;
+  border-bottom: 1px solid gray;
+  height: 250px;
 }
 .header h1 {
-
+  float: left;
+  margin-left: 225px;
 }
 .footer {
   background-color: #cbcfd6;
@@ -58,6 +62,7 @@ nav ul li {
   height: 175px;
   width: 250px;
   margin: 10px 20px;
+  padding: 10px;
 }
 .request {
   border: 2px solid gray;
@@ -65,4 +70,5 @@ nav ul li {
   width: 250px;
   float: left;
   margin: 10px 10px 10px 20px;
+  padding: 10px;
 }
